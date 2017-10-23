@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif; /*tipo de letra*/
+}
+nav {
+  /*outline: 1px solid  yellow;  para que nos ayude a ver cuando ocupa de espacio*/
+
+}
+ul {  /*etiqueta tipo bloque*/
+  /*outline: 1px solid blue ;*/
+  list-style: none; /*quitando la viñeta*/
+  padding: 0 ;
+  margin: 0;
+  background: #2e2e2a ;
+  line-height: 45px; /*una separacion entre lineas*/
+  text-align: center; /*para que sea vea centrado*/
+  overflow: auto; /*devuelve a los li el contexto de bloque afectados por el float*/
+  background-image: url(http://www.planwallpaper.com/static/images/6955940-blue-pattern-desktop-background_FqyKLQi.jpg);
+}
+li {
+  /*outline:  1px solid red ;*/
+  width: 100px;
+  /*display: inline-block; le dice a un bloque se comporte como un inline*/
+text-align: center;
+float: left;
+}
+a { /*etiqueta tipo in-line*/
+  /*outline: 1px solid green ;*/
+  text-decoration: none; /*quitando el subrayado*/
+  color: #fff ; /*cambio de color a la letra */
+  display: block; /*le dice al inline que se vea como bloque*/
+
+}
+a:hover {
+  background: #f9a91a ;
+  color: #000 ;
+}
