@@ -2,7 +2,7 @@ body {
   font-family: sans-serif; /*tipo de letra*/
 }
 nav {
-  /*outline: 1px solid  yellow;  para que nos ayude a ver cuando ocupa de espacio*/
+  outline: 1px solid  yellow;  para que nos ayude a ver cuando ocupa de espacio*/
 
 }
 ul {  /*etiqueta tipo bloque*/
